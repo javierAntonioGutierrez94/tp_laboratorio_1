@@ -7,7 +7,7 @@ int suma(int op1, int op2);
 int resta(int op1, int op2);
 int multiplicacion(int op1, int op2);
 int division(int op1, int op2);
-int factorial(int op1);
+int factorial(int n);
 
 int main() {
     printf("Ingresar 1er operando A=");
@@ -55,8 +55,10 @@ int division(int op1, int op2){
   resultado=op1/op2;
   return resultado;
 }
-int factorial(int op1){
-  int fac1;
-  fac1=op1*op1;
-  return fac1;
+int factorial(int n){
+  int resp;
+  if(n==1)
+  return 1;
+  resp=n*factorial(n-1);
+  return (resp);
 }
