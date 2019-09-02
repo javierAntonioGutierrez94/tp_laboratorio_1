@@ -5,7 +5,8 @@
 
 
 int main() {
-    int op1=0,op2=0,res=0,flag=0,opcion=0;
+    int op1=0,op2=0,res=0,opcion=0;
+    char flag='Y';
     printf("======== Bienvenidos a su Calculadora=========\n");
   do{
     printf("\nPor Favor Ingrese el 1er operando A=");
@@ -52,8 +53,10 @@ int main() {
             break;
         }
     }
-    printf("\nSi Desea volver a operar, presione 1\n");
-    scanf("%d",&flag);
-  }while(flag==1);
+    clear(cls);
+    printf("\nSi Desea volver a operar, presione Y \n\n");
+    scanf("%c",&flag);
+    flag=toupper(flag);
+  }while(flag!='Y');
 return 0;
 }
