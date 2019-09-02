@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1567463772 source:e:\programacion 1\27-8\tp1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"miBiblioteca.h"
+
+1567463080 e:\programacion 1\27-8\tp1\mibiblioteca.h
+	<stdio.h>
+	<stdlib.h>
+
+1567465519 source:d:\tp1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"miBiblioteca.h"
+
+1567465346 d:\tp1\mibiblioteca.h
+
+1567465527 source:d:\tp1\mibiblioteca.c
+
