@@ -19,6 +19,7 @@ int main() {
         printf("\nError por favor ingrese una operacion valida\n");
         scanf("%d",&opcion);
     }
+    system("cls");
     switch(opcion){
         case 1:{
             res=suma(op1,op2);
@@ -57,6 +58,7 @@ int main() {
     fflush(stdin);
     scanf("%c",&flag);
     flag=toupper(flag);
+    system("cls");
   }while(flag=='Y');
 return 0;
 }
