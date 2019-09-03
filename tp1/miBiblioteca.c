@@ -1,5 +1,3 @@
-
-
 int suma(int op1,int op2){
     int resultado;
     resultado=op1+op2;
@@ -21,19 +19,14 @@ int multiplicacion(int op1, int op2){
   }
 }
 int division(int op1, int op2){
-  int resultado;
-  if(op1==0||op2==0){
-    resultado=0;
-    return resultado;
-  }else{
+    int resultado;
     resultado=op1/op2;
     return resultado;
-  }
 }
 int factorial(int valor){
-  int i,res=1;
-  for(i=valor;i>0;i--){
-    res=res*i;
-  }
-  return res;
+    int i,res=1;
+    for(i=valor;i>0;i--){
+        res=res*i;
+    }
+    return res;
 }
