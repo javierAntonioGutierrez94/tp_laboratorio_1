@@ -13,10 +13,10 @@ int main() {
     scanf("%d",&op1);
     printf("\nPor Favor Ingresar el 2do operando B=");
     scanf("%d",&op2);
-    printf("\nQue operacion Desea realizar?\n\n1)Calcular la suma (A+B)\n2)Calcular la resta (A-B)\n3)Calcular la division (A/B)\n4)Calcular la multiplicacion (A*B)\n5)Calcular el factorial (A!) y (B!)\n");
+    printf("\nQue operacion Desea realizar?\n\n1)Calcular la suma (A+B)\n2)Calcular la resta (A-B)\n3)Calcular la division (A/B)\n4)Calcular la multiplicacion (A*B)\n5)Calcular el factorial (A!) y (B!)\n\n\t");
     scanf("%d",&opcion);
     while(opcion>5||opcion<1){
-        printf("\nError por favor ingrese una operacion valida\n");
+        printf("\nError por favor ingrese una operacion valida\n\n\t");
         scanf("%d",&opcion);
     }
     system("cls");
@@ -54,7 +54,7 @@ int main() {
             break;
         }
     }
-    printf("\nSi Desea volver a usar la calculadora?, presione Y \n\n");
+    printf("\nSi Desea volver a usar la calculadora?, presione Y \n\n\t");
     fflush(stdin);
     scanf("%c",&flag);
     flag=toupper(flag);
@@ -62,3 +62,4 @@ int main() {
   }while(flag=='Y');
 return 0;
 }
+
