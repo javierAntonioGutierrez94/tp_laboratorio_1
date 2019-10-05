@@ -1,0 +1,70 @@
+# depslib dependency file v1.0
+1569807063 source:c:\users\javier\desktop\projectos en c\tp2\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayEmployees.h"
+	"firstLib.h"
+
+1569692560 source:c:\users\javier\desktop\projectos en c\tp2\firstlib.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1569805690 source:c:\users\javier\desktop\projectos en c\tp2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayEmployees.h"
+	"firstLib.h"
+
+1569805500 c:\users\javier\desktop\projectos en c\tp2\arrayemployees.h
+
+1569297868 c:\users\javier\desktop\projectos en c\tp2\firstlib.h
+
+1569891100 source:c:\users\alumno\desktop\aksjd\tp2\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayEmployees.h"
+	"firstLib.h"
+
+1569805502 c:\users\alumno\desktop\aksjd\tp2\arrayemployees.h
+
+1569297868 c:\users\alumno\desktop\aksjd\tp2\firstlib.h
+
+1569692562 source:c:\users\alumno\desktop\aksjd\tp2\firstlib.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1569890268 source:c:\users\alumno\desktop\aksjd\tp2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayEmployees.h"
+	"firstLib.h"
+
+1569692562 source:c:\users\javier\desktop\programacion 1\tp2\firstlib.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1570311866 source:c:\users\javier\desktop\programacion 1\tp2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ArrayEmployees.h"
+	"firstLib.h"
+
+1570312291 c:\users\javier\desktop\programacion 1\tp2\arrayemployees.h
+
+1569297868 c:\users\javier\desktop\programacion 1\tp2\firstlib.h
+
+1570311007 source:c:\users\javier\desktop\programacion 1\tp2\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayEmployees.h"
+	"firstLib.h"
+
