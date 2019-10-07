@@ -19,7 +19,7 @@ int addEmployee(Employee* list, int len){
         if(list[i].isEmpty==1){
             printf("\nSe contro lugar");
             flag=0;
-            list[i].id=i+1;
+            list[i].id=i;
             fflush(stdin);
             printf("\ningrese el Nombre: ");
             fflush(stdin);
