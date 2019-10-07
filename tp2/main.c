@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include "ArrayEmployees.h"
 #include "firstLib.h"
-#define CANTEMPLOYES 5
+#define CANTEMPLOYES 1000
 /*******************************************************************
-*Programa:Trabajo Practico Nº2
+*Programa:Trabajo Practico NÂº2
 *
 *Objetivo:El objetivo del siguiente trabajo es que el alumno sea capaz de demostrar que puede integrar
 los conocimientos aprendidos hasta la clase 12.
@@ -21,11 +21,7 @@ int main()
 {
     int mainMenu,answerMain=-1,mainVal=-1,functionReturn,flag=0;
     char yesNo;
-    Employee empleados[CANTEMPLOYES];/*={{1,"Jose","Mico",30000,1,0},
-                        {2,"Jorge","Navarrete",31000,2,0},
-                        {3,"Rodrigo","Cataffo",32000,3,0},
-                        {4,"Florencia","Pi",52000,4,0},
-                        {5,"Sabrina","Casaux",42000,5,0}};*/
+    Employee empleados[CANTEMPLOYES];
     initEmployees(empleados,CANTEMPLOYES);
     do{
         printf("==========MENU PRINCIPAL=========\n");
