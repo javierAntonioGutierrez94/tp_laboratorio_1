@@ -45,8 +45,6 @@ void validateString(const char arrayIn[], char arrayOut[])
     aux[j++]='\0';
     strcpy(arrayOut,aux);
 
-    //Empieza quitar los espacio en medio
-
     aux[0]='\0';
     inicioCadena=0;
     j=0;
@@ -99,21 +97,21 @@ int menuPrincipal(void)
     system("cls");
     getChoiceForm(" Menu Principal ",1,78);
 
-    printf("\n1. Cargar los datos de los empleados desde el archivo data.csv (modo texto)");
-    printf("\n2. Cargar los datos de los empleados desde el archivo data.csv (modo binario)");
-    printf("\n3. Alta de empleado");
-    printf("\n4. Modificar datos de empleado");
-    printf("\n5. Baja de empleado");
-    printf("\n6. Listar empleados");
-    printf("\n7. Ordenar empleados");
-    printf("\n8. Guardar los datos de los empleados en el archivo data.csv (modo texto)");
-    printf("\n9. Guardar los datos de los empleados en el archivo data.csv (modo binario)");
-    printf("\n10. Salir");
+    printf("\n1- Cargar los datos de los empleados desde el archivo data.csv (modo texto)");
+    printf("\n2- Cargar los datos de los empleados desde el archivo data.csv (modo binario)");
+    printf("\n3- Alta de empleado");
+    printf("\n4- Modificar datos de empleado");
+    printf("\n5- Baja de empleado");
+    printf("\n6- Listar empleados");
+    printf("\n7- Ordenar empleados");
+    printf("\n8- Guardar los datos de los empleados en el archivo data.csv (modo texto)");
+    printf("\n9- Guardar los datos de los empleados en el archivo data.csv (modo binario)");
+    printf("\n10- Salir");
 
 
     printf("\n\n ");
     do{
-        getInt(&opcion,"Ingrese una Opcion: ","Error, la opcion no es correcta",1,10);
+        getInt(&opcion,"Ingrese una Opcion: ","Error, intente de nuevo",1,10);
 
     }while (!(opcion>0 || opcion<=10));
 
@@ -332,10 +330,10 @@ char menuOrdenamiento(void)
     getChoiceForm("MENU DE ORDENAMIENTO",1,78);
     crearEspacio('*',78,1);
     printf("\n");
-    printf("a. Ordenar por ID\n");
-    printf("b. Ordenar por Nombre\n");
-    printf("c. Ordenar por Horas Trabajadas\n");
-    printf("d. Ordenar por Sueldo\n");
+    printf("a- Ordenar por ID\n");
+    printf("b- Ordenar por Nombre\n");
+    printf("c- Ordenar por Horas Trabajadas\n");
+    printf("d- Ordenar por Sueldo\n");
 
     do
     {
@@ -359,10 +357,10 @@ int opcionOrden(void)
 
     do
     {
-        getInt(&opcion,"Ingrese una opcion: ","Error, 1- Descendente / 2- Ascendente",1,2);
+        getInt(&opcion,"Ingrese una opcion: ","Error, Solo 1 o 2",1,2);
 
     }while (!(opcion>=1 && opcion<=2));
-    printf("\nOdenando... Espere un momento...");
+    printf("\nOrdenado.");
 
     return opcion;
 }
